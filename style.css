@@ -1,7 +1,26 @@
-body{background-color: black;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
-    
-    h2 {color: white;}
-    ul {color: gray;}
-    #botao{background-color: black;
+body{
+background-color: black;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+width: 1000px;}
+
+
+h2{color: white;justify-content: center;
+text-align: center;
+font-size: 40px;
+margin-left: 253px;}
+
+#botao{background-color: black;
     color: white;}
+ .container{
+color:gray;
+list-style-type: none;
+
+}
+.personagens{
+align-items: center;
+width: 200px;
+border-radius: 18px;}
+
+.logo{
+margin-left: 500px;
+width: 197px;}
