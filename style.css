@@ -3,24 +3,51 @@ background-color: black;
 font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 width: 1000px;}
 
-
+.logo{
+    margin-left: 439px;
+    width: 197px;
+margin-top: 36px;}
+    
 h2{color: white;justify-content: center;
 text-align: center;
+margin-bottom: 40px;
+margin-top: 39px;
 font-size: 40px;
-margin-left: 253px;}
+margin-left: 75px;}
 
-#botao{background-color: black;
-    color: white;}
- .container{
+.container {
+text-align: center;
 color:gray;
 list-style-type: none;
+display: flex;}
+.nomes{margin-right: 88px;
+margin-left: 120px;}
+.personagens{justify-content: center;
+     width:200px;
+border-radius: 18px;
+margin-left:40px;}
 
+
+
+#botao{
+    background-color: black;
+    color: white;
+    
+    width: 150px;
+    height: 36px;
+    margin-left: 471px;
+    margin-top: 60px;}
+
+#botao:hover{
+background-color: white;
+color: black;
 }
-.personagens{
-align-items: center;
-width: 200px;
-border-radius: 18px;}
 
-.logo{
-margin-left: 500px;
-width: 197px;}
+.personagens:hover{
+    border:5px solid white;
+    }
+    
+    .nomes:hover{
+    color: white;
+    }
+    
