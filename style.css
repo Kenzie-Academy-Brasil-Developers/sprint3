@@ -1,53 +1,61 @@
 body{
-background-color: black;
-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-width: 1000px;}
-
-.logo{
-    margin-left: 439px;
+    background-color: black;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.logo {
+    margin-left: 540px;
     width: 197px;
-margin-top: 36px;}
-    
-h2{color: white;justify-content: center;
-text-align: center;
-margin-bottom: 40px;
-margin-top: 39px;
-font-size: 40px;
-margin-left: 75px;}
+    margin-top: 36px;
+}
 
 .container {
-text-align: center;
-color:gray;
-list-style-type: none;
-display: flex;}
-.nomes{margin-right: 88px;
-margin-left: 120px;}
-.personagens{justify-content: center;
-     width:200px;
-border-radius: 18px;
-margin-left:40px;}
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    color: gray;
+    list-style-type: none;
+    display:flex;
+    font-size: 25px;
+    }
+.nomes {
+   
+    margin-right: 240px;
+}
 
 
-
-#botao{
-    background-color: black;
+h1 {
     color: white;
-    
-    width: 150px;
-    height: 36px;
-    margin-left: 471px;
-    margin-top: 60px;}
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 39px;
+    font-size: 40px;
+}
 
-#botao:hover{
+.personagens {
+    justify-content: center;
+    width: 20%;
+    border-radius: 18px;
+    margin-left: 40px;
+}
+
+#botao {
+background-color: black;
+color: white;
+width: 150px;
+height: 36px;
+margin-left: 553px;
+margin-top: 60px;
+}
+
+#botao:hover {
 background-color: white;
 color: black;
 }
 
-.personagens:hover{
-    border:5px solid white;
-    }
-    
-    .nomes:hover{
+.personagens:hover {
+    border: 5px solid white;
+}
+
+.nomes:hover {
     color: white;
-    }
-    
+}
